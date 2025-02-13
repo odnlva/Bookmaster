@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Bookmaster
+namespace Bookmaster.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для CirculationPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CirculationPage : Page
     {
-        public MainWindow()
+        public CirculationPage()
         {
             InitializeComponent();
         }
